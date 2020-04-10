@@ -1,6 +1,6 @@
 {
   "name": "cordova-hot-code-push-plugin",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Cordova plugin to perform code updates on the fly",
   "cordova": {
     "id": "cordova-hot-code-push-plugin",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nordnet/cordova-hot-code-push.git"
+    "url": "git+https://github.com/oliverfriedmann/cordova-hot-code-push.git"
   },
   "keywords": [
     "cordova",
@@ -35,7 +35,8 @@
     }
   ],
   "dependencies": {
-    "xml2js": "^0.4"
+    "xml2js": "^0.4",
+    "xcode": ""
   },
   "author": "Nikolay Demyankov for Nordnet Bank AB",
   "license": "MIT",
